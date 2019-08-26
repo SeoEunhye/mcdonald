@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
+		<title>Mcdonalds sub</title>
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/include.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sub.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js">
+		</script>
+		<script src="js/sub.js"></script>
+	</head>
+	<body>
+        <!--전체시작-->
+        <div id="subWrap">
+            <!--header 시작-->
+			<header id="header">
+				<!--logo-->
+				<h1><a href="main.html">logo</a></h1>
+				<!--logo-->
+				<!--lacation-->
+				<a href="sub.html"><img class="location" src="images/Icon_location.png" alt="매장찾기"></a>
+				<!--lacation-->
+				<!--rightmenu-->
+				<div class="rightMenuBg"></div>
+					<img class="panel" src="images/Icon_menu.png" alt="메뉴열기버튼">
+					<nav class="rightmenu">
+						<ul>
+							<li class="closeBtn">닫기버튼</li>
+							<li><a href="#">메뉴</a></li>
+							<li><a href="#">매장찾기</a></li>
+							<li><a href="#">맥딜리버리/맥드라이브</a></li>
+							<li><a href="#">공지사항</a></li>
+							</ul>
+						</nav>
+				<!--rightmenu-->
+			</header>
+			<!--header 종료-->
+            <!--container시작-->
+            <div id="container">
+                <div class="locaton">
+                    <h2>Mcdonald’s Store</h2>
+                    <!--selectWrap-->
+                    <div class="selectWrap">
+                        <!--select-->
+                        <select name="store">
+                          <option value="" disabled selected>시/도시</option>
+                          <option value="서울특별시">서울특별시</option>
+                          <option value="부산광역시">부산광역시</option>
+                          <option value="대구광역시">대구광역시</option>
+                          <option value="광주광역시">광주광역시</option>
+                          <option value="인천광역시">인천광역시</option>
+                          <option value="대전광역시">대전광역시</option>
+                          <option value="울산광역시">울산광역시</option>
+                          <option value="세종특별시">세종특별시</option>
+                          <option value="경기도">경기도</option>
+                          <option value="강원도">강원도</option>
+                          <option value="충청남도">충청남도</option>
+                          <option value="충청북도">충청북도</option>
+                          <option value="경상남도">경상남도</option>
+                          <option value="경상북도">경상북도</option>
+                          <option value="전라남도">전라남도</option>
+                          <option value="전라북도">전라북도</option>
+                          <option value="제주특별자치도">제주특별자치도</option>
+                        </select>
+                        <!--select-->
+                        <!--input text-->
+                        <input type="text" placeholder="직접입력 (예: 강남, 분당)" onclick="alert('준비 중입니다.')">
+                        <!--input text-->
+                    </div>
+                    <!--selectWrap-->
+                    <!--google map-->
+                    <div class="map">
+                    	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13048.319493498571!2d129.0610991!3d35.1546287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ab4c9b8728955e1!2z66el64-E64Kg65OcIOyEnOuptDPtmLjsoJA!5e0!3m2!1sko!2skr!4v1565933873798!5m2!1sko!2skr" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!--google map-->
+                    <!--btnWrap-->
+                    <div class="btnWrap">
+                        <div class="whereStore">
+                            <p>가까운 매장 찾기</p>
+                        </div>
+                        <div class="storeAll">
+                            <p>매장 전체보기</p>
+                        </div>
+                    </div>
+                    <!--btnWrap-->
+                </div>
+            </div>
+            <!--container종료-->
+            <!--footer 시작-->
+			<footer id="footer">
+				<ul class="snsWrap cf">
+					<li>
+						<img src="images/sns_facebook.png" alt="페이스북아이콘">
+					</li>
+					<li>
+						<img src="images/sns_instar.png" alt="인스타그램아이콘">
+					</li>
+					<li>
+						<img src="images/sns_utube.png" alt="유튜브아이콘">
+					</li>
+					<li>
+						<img src="images/sns_twitter.png" alt="트위터아이콘">
+					</li>
+				</ul>
+				<ul class="fMenu1 cf">
+					<li>사이트이용약관ㅣ</li>
+					<li>개인정보처리방침ㅣ</li>
+					<li>공지사항</li>
+				</ul>
+				<ul class="fMenu2 cf">
+					<li>전화주문 : 1600-5252ㅣ</li>
+					<li>PC버전</li>
+				</ul>
+				<p>COPYRIGHT &copy; 2019 ALL RIGHTS RESERVED.</p>
+			</footer>
+			<!--footer 종료-->
+        </div>
+        <!--전체종료-->
+    </body>
+</html>
